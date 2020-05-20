@@ -4112,7 +4112,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -5945,7 +5945,7 @@ button.close {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 15%;
+  width: 10%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
