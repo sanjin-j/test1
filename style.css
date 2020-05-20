@@ -5,6 +5,8 @@ body {
       
       
       margin: 15px;
+      
+      
            
 }
 
@@ -32,7 +34,11 @@ nav ul li {
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-    
+   display:flex;
+   align-items:center;
+  justify-content:center;
+   position:relative; 
+  flex-direction: column; 
     
 }
 
@@ -57,6 +63,11 @@ nav ul li {
   -moz-background-size: cover;
    background-size: cover;
    -o-background-size: cover;
+   display:flex;
+   align-items:center;
+  justify-content:center;
+   position:relative; 
+  flex-direction: column;
 }
 .pomak{
   margin-left: 0px;
@@ -84,6 +95,11 @@ nav ul li {
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
+            display:flex;
+            align-items:center;
+           justify-content:center;
+            position:relative; 
+           flex-direction: column;
              
 }
 .fore{
@@ -200,6 +216,7 @@ fieldset {
     position: relative;
     top: 20px;
 }
+
 
   
 
