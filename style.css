@@ -26,12 +26,7 @@ nav ul li {
    background-repeat: no-repeat;
    top: 42px;
    display:flex;
-  
-  
-
-    
-}
-
+}  
 
 /*Header*/
 .opsirnije1{
@@ -42,18 +37,32 @@ nav ul li {
 
 .ured{
   margin-top:50px; 
- 
+  margin-left:0px;
+  margin-right: 0px;
   background: url("img/Ured_Operative_1.jpg");
   color: #fff; 
   background-attachment: fixed;   
   background-repeat: no-repeat;             
-  background-size: cover;
-  display:flex;
-} 
-
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   display:flex;
+   align-items:center;
+  justify-content:center;
+   position:relative; 
+  flex-direction: column;
+}
+.pomak{
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .ured1 img{
    width: 100%;
 }
+
+
 
 /*ured*/
 
