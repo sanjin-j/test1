@@ -17,33 +17,23 @@ nav ul li {
 
 
 
-/*HeaderHomePage*/
+/*Header*/
 
 .header{
    background-image: url("img/slika4.jpg"); 
    background-size: cover;
    background-attachment: fixed;
    background-repeat: no-repeat;
-   display:flex;
-   justify-content:center;
-   margin-right: 0px; 
-   margin-left: 0px; 
-   position: relative;
    top: 42px;
-   
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
    display:flex;
-   align-items:center;
-  justify-content:center;
-   position:relative; 
-  flex-direction: column; 
+  
+  
+
     
 }
 
 
-/*EndHeaderHomePage*/
+/*Header*/
 .opsirnije1{
     margin-bottom: 20px;
 }
@@ -52,27 +42,14 @@ nav ul li {
 
 .ured{
   margin-top:50px; 
-  margin-left:0px;
-  margin-right: 0px;
+ 
   background: url("img/Ured_Operative_1.jpg");
   color: #fff; 
   background-attachment: fixed;   
   background-repeat: no-repeat;             
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-   background-size: cover;
-   -o-background-size: cover;
-   display:flex;
-   align-items:center;
-  justify-content:center;
-   position:relative; 
-  flex-direction: column;
-}
-.pomak{
-  margin-left: 0px;
-  margin-right: 0px;
-}
+  background-size: cover;
+  display:flex;
+} 
 
 .ured1 img{
    width: 100%;
@@ -81,7 +58,7 @@ nav ul li {
 /*ured*/
 
 
-/*ThreeThings*/
+/*Three*/
 .usluge{
             background: url('img/Feng-Shui-That-kucna-kancelarija-1.jpg') ;
             margin-top: 20px;
@@ -89,29 +66,18 @@ nav ul li {
             display:flex;
             justify-content:center;
             color:#fff;
-            margin-left: 0px;
-            margin-right: 0px;
             background-attachment: fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
             display:flex;
-            align-items:center;
-           justify-content:center;
-            position:relative; 
-           flex-direction: column;
-             
-}
+ }         
+
 .fore{
     margin-top: 25px;
-    margin-left: 0px;
+    
    
 }
 footer{
     background-color: white;
     font-size: small;
-    margin-left: 0px;
-    margin-right: 0px;
     box-shadow: 1px 1px 3px 3px #88888838;
 }
 footer img{
@@ -128,7 +94,7 @@ footer img{
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
-	margin-top: 20px;
+    margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
 }
