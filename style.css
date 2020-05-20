@@ -29,6 +29,10 @@ nav ul li {
    position: relative;
    top: 42px;
    
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    
     
 }
 
@@ -44,11 +48,15 @@ nav ul li {
   margin-top:50px; 
   margin-left:0px;
   margin-right: 0px;
-  background: url("img/Ured_Operative_1.jpg")center fixed ;
+  background: url("img/Ured_Operative_1.jpg");
   color: #fff; 
   background-attachment: fixed;   
   background-repeat: no-repeat;             
   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
 }
 .pomak{
   margin-left: 0px;
@@ -64,7 +72,7 @@ nav ul li {
 
 /*ThreeThings*/
 .usluge{
-            background: url('img/Feng-Shui-That-kucna-kancelarija-1.jpg') no-repeat center center fixed;
+            background: url('img/Feng-Shui-That-kucna-kancelarija-1.jpg') ;
             margin-top: 20px;
             background-size: cover;
             display:flex;
@@ -72,6 +80,11 @@ nav ul li {
             color:#fff;
             margin-left: 0px;
             margin-right: 0px;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+             
 }
 .fore{
     margin-top: 25px;
@@ -187,5 +200,6 @@ fieldset {
     position: relative;
     top: 20px;
 }
+
   
 
